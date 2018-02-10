@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Eric Liang</title>
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <div id="top_pane" class="clearfix">
+            <div class="container">
+                <header>
+                    <p id="website_name">Eric Liang</p>
+                </header>
+
+                <nav id="website_menu">
+                    <a href="index.html">About Me</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+        
+        <div id="middle_pane" class="container clearfix">
+            <section class="left_pane">
+                <article>
+                    <header>
+                        <h1>Contact</h1>
+                    </header>
+
+                    <form action="#">
+                        <label for="form_name">Name</label>
+                        <input type="text" id="form_name" name="user_name" placeholder="John Smith" required>
+                        <br>
+                        
+                        <label for="form_email">Email</label>
+                        <input type="text" id="form_email" name="user_email" placeholder="john.smith@example.com" required>
+                        <br>
+
+                        <label for="form_message">Message</label>
+                        <textarea id="form_message" maxlength="200" rows="6" required></textarea>
+
+                        <input type="submit" id="form_submit" value="Submit">
+                    </form>
+                </article>
+            </section>
+            
+            <section class="right_pane">
+                <header>
+                    <h2>Connect with Me</h2>
+                </header>
+                
+                <figure>
+                    <a href="https://www.linkedin.com/in/xiaoyongliang/" target="_blank"><img src="assets/images/icon_linkedin.png" alt="link to Eric's LinkedIn page"></a>
+                    <a href="https://github.com/ericxl/" target="_blank"><img src="assets/images/icon_github.png" alt="link to Eric's GitHub page"></a>
+                    <a href="https://stackoverflow.com/users/2272101/eric-liang" target="_blank"><img src="assets/images/icon_stackoverflow.png" alt="link to Eric's StackOverflow page"></a>
+                </figure>
+            </section>
+        </div>
+        
+        <div id="bottom_pane" class="clearfix">
+            <div class="container">
+                <footer>
+                    <p class="copyright">Copyright © 2018 Eric Liang</p>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
